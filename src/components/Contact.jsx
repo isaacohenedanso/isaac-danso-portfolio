@@ -35,9 +35,9 @@ const Contact = () => {
       </p>
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div className="pt-3">
-          <div className="d-flex py-2 ">
-            <label htmlFor="fullname" className="form-label col-1 col-sm-2">
-              Full Name
+          <div className="d-flex py-2 input">
+            <label htmlFor="fullname" className="form-label w-100 ">
+              Full Name :
             </label>
             <input
               className="form-control"
@@ -47,9 +47,9 @@ const Contact = () => {
               required
             ></input>
           </div>
-          <div className="d-flex py-2">
-            <label htmlFor="email" className="form-label col-1 col-sm-2">
-              Email
+          <div className="d-flex py-2 input">
+            <label htmlFor="email" className="form-label w-100  ">
+              Email :
             </label>
             <input
               className="form-control "

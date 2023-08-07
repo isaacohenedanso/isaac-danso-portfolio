@@ -85,6 +85,11 @@ body {
     background-color: $text;
     color: $bg;
     border-radius: 5px;
+
+    .input {
+      display: flex !important;
+      flex-direction: column !important;
+    }
   }
 
   .footer {
@@ -149,5 +154,23 @@ body {
 @media screen and (min-width: 768px) {
   .hero {
     height: 550px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skills {
+    .card {
+      width: 30% !important;
+      margin: 5% !important;
+      flex-wrap: wrap;
+      color: #000;
+      height: 200px !important;
+    }
+  }
+
+  .contact {
+    textarea {
+      height: 200px !important;
+    }
   }
 }

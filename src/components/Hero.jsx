@@ -1,4 +1,4 @@
-import resume from "../assets/Isaac_Danso_CV.pdf";
+import cv from "../assets/Isaac_Danso_CV.pdf";
 import download from "../assets/images/download.svg";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
           interfaces.
         </p>
         <button type="button" className="btn btn-dark">
-          <a href={resume} download>
+          <a href={cv} download>
             <img src={download} alt="download"></img>Download CV
           </a>
         </button>
