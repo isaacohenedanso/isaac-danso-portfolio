@@ -1,0 +1,153 @@
+$text: #fefbfb;
+$bg: #260c08;
+$primary: #cb3f2a;
+$secondary: #3f140d;
+$accent: #b63925;
+$opac: #ffffff80;
+
+@font-face {
+  font-family: "Parisienne", cursive;
+  src: url("../fonts/Parisienne-Regular.ttf") format("ttf");
+}
+
+body {
+  background-color: $secondary;
+  color: $text;
+
+  button {
+    width: 250px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text;
+  }
+
+  .nav .logo {
+    font-family: "Parisienne", cursive;
+  }
+
+  .flex {
+    background-color: $primary;
+    display: flex;
+    height: 400px;
+
+    .img {
+      width: 50%;
+      height: 100%;
+      background-image: url("../images/isaac.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .title {
+      width: 50%;
+      height: 100%;
+      padding: 5%;
+      align-self: center;
+      a img {
+        width: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    span {
+      color: $bg;
+    }
+  }
+
+  .skills {
+    background-color: #260c08;
+
+    hr {
+      margin: auto;
+      width: 40%;
+    }
+
+    .cards {
+      .card {
+        width: 15%;
+        aspect-ratio: 1/ 1;
+        margin: 5%;
+
+        .card-img-top {
+          height: 80%;
+        }
+      }
+    }
+  }
+
+  .contact {
+    background-color: $text;
+    color: $bg;
+    border-radius: 5px;
+  }
+
+  .footer {
+    background-color: $bg;
+    color: $opac;
+
+    h6 {
+      border: 2px dotted;
+      border-color: transparent transparent $opac transparent;
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+}
+
+//
+//
+//
+//
+//
+@media screen and (max-width: 768px) {
+  .nav,
+  .hero,
+  .skills,
+  .contact,
+  .footer {
+    margin: 0 !important;
+  }
+
+  button {
+    width: 100% !important;
+  }
+
+  body {
+    .flex {
+      display: flex;
+      flex-direction: column !important;
+      height: auto;
+      padding-bottom: 48px;
+
+      .img {
+        width: 100%;
+        height: 40vh;
+        object-fit: fill;
+      }
+
+      .title {
+        padding: 20px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.card {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 550px;
+  }
+}
