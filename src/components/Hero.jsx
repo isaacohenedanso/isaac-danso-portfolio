@@ -10,10 +10,10 @@ const Hero = () => {
           HI, I am <span className="">ISAAC DANSO</span>
         </h2>
         <p className=" py-2">
-          Hello, I am Isaac Danso, a passionate Frontend Web developer with
-          expertise in creating delightful and responsive web applications. I
-          love transforming creative ideas into functional, user-friendly
-          interfaces.
+          Hello, I am Isaac Danso, a passionate{" "}
+          <span>Frontend Web developer</span> with expertise in creating
+          delightful and responsive web applications. I love transforming
+          creative ideas into functional, user-friendly interfaces.
         </p>
         <button type="button" className="btn btn-dark">
           <a href={cv} download>
