@@ -1,6 +1,6 @@
 import { Component } from "react";
 import html from "../assets/images/html5.svg";
-import css from "../assets/images/js.svg";
+import css from "../assets/images/css3.svg";
 import sass from "../assets/images/sass.svg";
 import bootstrap from "../assets/images/bootstrap.svg";
 import js from "../assets/images/js.svg";
