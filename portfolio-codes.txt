@@ -1,0 +1,11 @@
+Your selected colors:
+
+    Text: #fefbfb (RGB: 254, 251, 251)
+    Background: #260c08 (RGB: 38, 12, 8)
+    Primary: #cb3f2a (RGB: 203, 63, 42)
+    Secondary: #3f140d (RGB: 63, 20, 13)
+    Accent: #b63925 (RGB: 182, 57, 37)
+
+Realtime Colors link for selected colors: https://realtimecolors.com/?colors=fefbfb-260c08-cb3f2a-3f140d-b63925
+
+Thanks for using RealtimeColors.com!

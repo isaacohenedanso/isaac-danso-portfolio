@@ -13,34 +13,29 @@ $opac: #ffffff80;
 body {
   background-color: $secondary;
   color: $text;
-
+  animation: swoosh 3s ease-in-;
   button {
     width: 250px;
   }
-
   a {
     text-decoration: none;
     color: $text;
   }
-
   .nav .logo {
     font-family: "Parisienne", cursive;
   }
-
   .flex {
     background-color: $primary;
     display: flex;
-    height: 400px;
-
+    height: 500px;
     .img {
       width: 50%;
       height: 100%;
-      background-image: url("../images/isaac.svg");
+      background-image: url("../images/isaaca.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
     }
-
     .title {
       width: 50%;
       height: 100%;
@@ -49,58 +44,51 @@ body {
       a img {
         width: 20px;
       }
-
+      h1 {
+        line-height: 1.5;
+      }
       p {
-        font-size: 16px;
+        padding-top: 10px;
+        font-size: 20px;
       }
     }
-
     span {
       color: $bg;
     }
   }
-
   .skills {
     background-color: #260c08;
-
     hr {
       margin: auto;
       width: 40%;
     }
-
     .cards {
       .card {
         width: 15%;
         aspect-ratio: 1/ 1;
         margin: 5%;
-
         .card-img-top {
           height: 80%;
         }
       }
     }
   }
-
   .contact {
     background-color: $text;
     color: $bg;
     border-radius: 5px;
-
     .input {
       display: flex !important;
       flex-direction: column !important;
     }
   }
-
   .footer {
     background-color: $bg;
     color: $opac;
-
     h6 {
       border: 2px dotted;
       border-color: transparent transparent $opac transparent;
     }
-
     img {
       width: 20px;
     }
@@ -134,7 +122,7 @@ body {
 
       .img {
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         object-fit: fill;
       }
 
@@ -156,7 +144,6 @@ body {
     height: 550px;
   }
 }
-
 @media screen and (max-width: 450px) {
   .skills {
     .card {
@@ -168,10 +155,29 @@ body {
       height: 200px !important;
     }
   }
-
   .contact {
     textarea {
       height: 200px !important;
     }
+  }
+}
+@media screen and (min-width: 450px) {
+  .flex {
+    .img {
+      height: 850px;
+    }
+  }
+}
+
+@keyframes swoosh {
+  0% {
+    opacity: 0;
+    position: absolute;
+    bottom: 100vh;
+  }
+  100% {
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
   }
 }

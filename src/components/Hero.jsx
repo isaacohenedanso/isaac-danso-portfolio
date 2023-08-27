@@ -6,10 +6,10 @@ const Hero = () => {
     <div className=" hero flex mb-5">
       <div className="img"></div>
       <div className="title">
-        <h2>
+        <h2 className="pt-5">
           HI, I am <span className="">ISAAC DANSO</span>
         </h2>
-        <p className=" py-2">
+        <p className="pt-4">
           Hello, I am Isaac Danso, a passionate{" "}
           <span>Frontend Web developer</span> with expertise in creating
           delightful and responsive web applications. I love transforming
