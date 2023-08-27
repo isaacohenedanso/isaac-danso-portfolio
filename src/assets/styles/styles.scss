@@ -13,7 +13,7 @@ $opac: #ffffff80;
 body {
   background-color: $secondary;
   color: $text;
-  animation: swoosh 3s ease-in-;
+  animation: swoosh 3s ease-in-out;
   button {
     width: 250px;
   }
